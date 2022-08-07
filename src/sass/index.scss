@@ -1,1 +1,15 @@
+//--------------Utils---------------
+@import './utils/hidden';
+@import './utils/mixins';
+@import './utils/vars';
+
+//-------------Base------------------
+@import './base/common';
+@import './base/resets';
+
+//--------------Components-----------
+@import './components/container';
+@import './components/btn';
+
+//--------------Layout---------------
 @import './layout/header';

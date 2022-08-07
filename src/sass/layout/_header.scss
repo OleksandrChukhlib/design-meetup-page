@@ -1,0 +1,27 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+   height: 76px;
+    background-color: var(--secondary-bg-color);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header__logo {
+      width: 87px;
+    height: 36px;
+}
+
+.header__menu {
+    width: 30px;
+    height: 24px;
+}
+
+.header__button {
+    background-color: inherit;
+        border: none;
+}
