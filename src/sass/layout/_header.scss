@@ -19,6 +19,13 @@
 .header__menu {
     width: 30px;
     height: 24px;
+    transition: fill var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
+    fill: var(--primary-text-color);
+
+    &:hover,
+    &:focus {
+fill: var(--accent-color);
+    }
 }
 
 .header__button {
