@@ -1,6 +1,8 @@
 .header {
+    position: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
+    width: 100%;
     height: 76px;
     background-color: var(--secondary-bg-color);
 }
@@ -32,13 +34,14 @@
     width: 635px;
 
     @media screen and (min-width: 1366px) {
-            width: 753px;;
-        }
+        width: 753px;
+        ;
+    }
 
-                 @media screen and (min-width: 1440px) {
-                     width: 796px;
-                     ;
-                 }
+    @media screen and (min-width: 1440px) {
+        width: 796px;
+        ;
+    }
 }
 
 .navigation__item {
@@ -63,6 +66,7 @@
 .header__button {
     background-color: inherit;
     border: none;
+    padding: 0;
 
     @media screen and (min-width: 1024px) {
         display: none;
