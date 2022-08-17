@@ -222,6 +222,15 @@
     font-size: 14px;
     line-height: 18px / 14px;
 
+    transition: color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1), background-color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: var(--primary-bg-color);
+            color: var(--secondary-title-color);
+            cursor: pointer;
+        }
+
     @media screen and (min-width:1024px) {
         max-width: 345px;
         max-height: 50px;
@@ -265,8 +274,16 @@
 .hero__svg-btn {
     width: 44px;
     height: 44px;
+    fill: var(--primary-text-color);
+    transition: fill var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
 
-    @media screen and (min-width:1024px) {
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        cursor: pointer;
+    }
+
+      @media screen and (min-width:1024px) {
         width: 100px;
         height: 100px;
     }
