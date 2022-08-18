@@ -1,51 +1,166 @@
 .about {
     padding-top: 20px;
+
+        @media screen and (min-width: 1024px) {
+                padding-top: 64px;
+        
+            }
+
+@media screen and (min-width: 1366px) {
+                             padding-top: 80px;
+            
+                         }
+
+   @media screen and (min-width: 1440px) {
+       padding-top: 110px;
+
+   }
+}
+
+.container-about {
+    @media screen and (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+    
+        }
+}
+
+.about__text-wrapper {
+    @media screen and (min-width: 1024px) {
+        max-width: 472px;
+        }
+}
+
+.about__picture {
+   
+    margin: 0;
+
+        @media screen and (min-width: 1024px) {
+                max-width: 462px;
+            }
+
+                        @media screen and (min-width: 1366px) {
+                            max-width: 501px;
+                        }
+@media screen and (min-width: 1440px) {
+    max-width: 564px;
+}
+                        
 }
 
 .about__title {
-    // margin-bottom: 16px;
     font-family: var(--third-font);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 19px;
-        line-height: 26px / 19px;
-        letter-spacing: 0.05em;
-        color: var(--accent-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 26px / 19px;
+    letter-spacing: 0.05em;
+    color: var(--accent-color);
+
+    @media screen and (min-width: 1024px) {
+        font-size: 24px;
+            line-height: 32px / 24px;
+        }
 }
 
 .about__list {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
+    max-width: 258px;
+    padding: 16px 10px;
+
+@media screen and (min-width: 400px) {
+    max-width: 480px;
+}
+
+@media screen and (min-width: 1024px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+@media screen and (min-width: 1366px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1440px) {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+}
 
 .about__item {
     font-family: var(--secondary-font);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px / 14px;
-        letter-spacing: 0.05em;
-           color: var(--secondary-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px / 14px;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text-color);
 
-        &:not(:last-child) {
-                margin-bottom: 6px;
+    &:not(:last-child) {
+        margin-bottom: 6px;
+    }
+
+    &::before {
+        display: inline-block;
+        content: "";
+        width: 3px;
+        height: 3px;
+        background-size: contain;
+        background-color: var(--black-bg-color);
+        border-radius: 50px;
+        margin-right: 14px;
+        margin-bottom: 3px;
+
+       
+    }
+
+    &--padding {
+        padding-left: 18px;
+
+        @media screen and (min-width: 400px) {
+                padding-left: 0;
             }
+    }
+
+                @media screen and (min-width: 1024px) {
+                    font-size: 18px;
+                        line-height: 24px / 18px;
+                }
 }
 
 .about__text {
     margin-bottom: 24px;
     font-family: var(--secondary-font);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 19px / 14px;
-        letter-spacing: 0.05em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px / 14px;
+    letter-spacing: 0.05em;
 
-        color: var(--secondary-text-color);
+    color: var(--secondary-text-color);
 
-        &--accent-color {
-            margin-bottom: 16px;
-                font-weight: 700;   
-            color: var(--accent-color);
+    @media screen and (min-width: 1024px) {
+            margin-bottom: 0;
+                             font-size: 18px;
+                line-height: 24px / 18px;
         }
+
+    &--accent-color {
+        margin-bottom: 16px;
+        font-weight: 700;
+        color: var(--accent-color);
+
+        @media screen and (min-width: 1024px) {
+            margin-bottom: 24px;
+            }
+
+                         @media screen and (min-width: 1366px) {
+                             margin-bottom: 40px;
+                         }
+          @media screen and (min-width: 1440px) {
+              margin-bottom: 44px;
+          }
+    }
+
+       
 }
