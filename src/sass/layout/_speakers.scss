@@ -1,0 +1,28 @@
+.speakers {
+    padding-top: 24px;
+    padding-bottom: 44px;
+}
+
+.container__title {
+    margin-bottom: 24px;
+    font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 42px / 38px;
+        text-align: center;
+    
+        color: var(--primary-title-color);
+}
+
+.speakers__date {
+    font-family: var(--main-font);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 24px / 19px;
+        color: var(--secondary-text-color);
+
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+}
