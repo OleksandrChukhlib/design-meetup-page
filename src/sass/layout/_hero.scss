@@ -1,57 +1,57 @@
 .hero {
-    padding-top: 140px;
-    padding-bottom: 43px;
-    background-color: var(--secondary-bg-color);
+	padding-top: 140px;
+	padding-bottom: 43px;
+	background-color: var(--secondary-bg-color);
 
-    background-image: linear-gradient(to right,
-            rgba(103, 35, 174, 0.5),
-            rgba(103, 35, 174, 0.5)),
-        url("../images/mobile/hero-img-480.jpg");
-    background-size: 480px 540px;
-    background-position: center;
-    background-repeat: no-repeat;
+	background-image: linear-gradient(to right,
+			rgba(103, 35, 174, 0.5),
+			rgba(103, 35, 174, 0.5)),
+		url("../images/mobile/hero-img-480.jpg");
+	background-size: 480px 540px;
+	background-position: center;
+	background-repeat: no-repeat;
 
-    @media screen and (min-width: 1024px) {
-        padding-top: 175px;
-        padding-bottom: 80px;
-        // padding-left: 65px;
+	@media screen and (min-width: 1024px) {
+		padding-top: 175px;
+		padding-bottom: 80px;
+		// padding-left: 65px;
 
-        background-image: linear-gradient(to right,
-                rgba(103, 35, 174, 0.5),
-                rgba(103, 35, 174, 0.5)),
-            url("../images/tablet/hero-img-1024.jpg");
-        background-size: 1024px 577px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+		background-image: linear-gradient(to right,
+				rgba(103, 35, 174, 0.5),
+				rgba(103, 35, 174, 0.5)),
+			url("../images/tablet/hero-img-1024.jpg");
+		background-size: 1024px 577px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 
-    @media screen and (min-width: 1366px) {
-        padding-top: 277px;
-        padding-bottom: 68px;
-        // padding-left: 65px;
+	@media screen and (min-width: 1366px) {
+		padding-top: 277px;
+		padding-bottom: 68px;
+		// padding-left: 65px;
 
-        background-image: linear-gradient(to right,
-                rgba(103, 35, 174, 0.5),
-                rgba(103, 35, 174, 0.5)),
-            url("../images/tablet-hz/hero-img-1366.jpg");
-        background-size: 1366px 770px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+		background-image: linear-gradient(to right,
+				rgba(103, 35, 174, 0.5),
+				rgba(103, 35, 174, 0.5)),
+			url("../images/tablet-hz/hero-img-1366.jpg");
+		background-size: 1366px 770px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 
-    @media screen and (min-width: 1440px) {
-        padding-top: 288px;
-        padding-bottom: 119px;
+	@media screen and (min-width: 1440px) {
+		padding-top: 288px;
+		padding-bottom: 119px;
 
 
-        background-image: linear-gradient(to right,
-                rgba(103, 35, 174, 0.5),
-                rgba(103, 35, 174, 0.5)),
-            url("../images/desktop/hero-img-1440.jpg");
-        background-size: 1440px 812px;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+		background-image: linear-gradient(to right,
+				rgba(103, 35, 174, 0.5),
+				rgba(103, 35, 174, 0.5)),
+			url("../images/desktop/hero-img-1440.jpg");
+		background-size: 1440px 812px;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 
 }
 
@@ -59,268 +59,268 @@
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .hero {
-        background-image: linear-gradient(to right,
-                rgba(103, 35, 174, 0.5),
-                rgba(103, 35, 174, 0.5)),
-            url("../images/mobile/hero-img-960.jpg");
-    }
+	.hero {
+		background-image: linear-gradient(to right,
+				rgba(103, 35, 174, 0.5),
+				rgba(103, 35, 174, 0.5)),
+			url("../images/mobile/hero-img-960.jpg");
+	}
 
 }
 
 @media screen and (min-width: 1024px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: linear-gradient(to right,
-                    rgba(103, 35, 174, 0.5),
-                    rgba(103, 35, 174, 0.5)),
-                url("../images/tablet/hero-img-2048.jpg");
-        }
+	@media (min-device-pixel-ratio: 2),
+	(-webkit-min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(to right,
+					rgba(103, 35, 174, 0.5),
+					rgba(103, 35, 174, 0.5)),
+				url("../images/tablet/hero-img-2048.jpg");
+		}
 
-    }
+	}
 }
 
 @media screen and (min-width: 1366px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: linear-gradient(to right,
-                    rgba(103, 35, 174, 0.5),
-                    rgba(103, 35, 174, 0.5)),
-                url("../images/tablet-hz/hero-img-2732.jpg");
-        }
+	@media (min-device-pixel-ratio: 2),
+	(-webkit-min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(to right,
+					rgba(103, 35, 174, 0.5),
+					rgba(103, 35, 174, 0.5)),
+				url("../images/tablet-hz/hero-img-2732.jpg");
+		}
 
-    }
+	}
 }
 
 @media screen and (min-width: 1440px) {
 
-    @media (min-device-pixel-ratio: 2),
-    (-webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero {
-            background-image: linear-gradient(to right,
-                    rgba(103, 35, 174, 0.5),
-                    rgba(103, 35, 174, 0.5)),
-                url("../images/desktop/hero-img-2880.jpg");
-        }
+	@media (min-device-pixel-ratio: 2),
+	(-webkit-min-device-pixel-ratio: 2),
+	(min-resolution: 192dpi),
+	(min-resolution: 2dppx) {
+		.hero {
+			background-image: linear-gradient(to right,
+					rgba(103, 35, 174, 0.5),
+					rgba(103, 35, 174, 0.5)),
+				url("../images/desktop/hero-img-2880.jpg");
+		}
 
-    }
+	}
 }
 
 
 .hero__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-    @media screen and (min-width: 1024px) {
-        align-items: flex-start;
-    }
+	@media screen and (min-width: 1024px) {
+		align-items: flex-start;
+	}
 }
 
 .hero__block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-    @media screen and (min-width: 1024px) {
-        display: flex;
-        flex-direction: row;
-    }
+	@media screen and (min-width: 1024px) {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 .hero__title-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
-    @media screen and (min-width: 1024px) {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+	@media screen and (min-width: 1024px) {
+		flex-direction: column;
+		align-items: flex-start;
+	}
 }
 
 .hero__date {
-    margin-bottom: 18px;
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35.2px;
-    line-height: 53px / 35.2px;
+	margin-bottom: 18px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35.2px;
+	line-height: 53px / 35.2px;
 
-    @media screen and (min-width: 1024px) {
-        margin-bottom: 24px;
-        padding-left: 84px;
-        font-size: 44px;
-        line-height: 53px / 44px;
-    }
+	@media screen and (min-width: 1024px) {
+		margin-bottom: 24px;
+		padding-left: 84px;
+		font-size: 44px;
+		line-height: 53px / 44px;
+	}
 
-    @media screen and (min-width: 1366px) {
-        padding-left: 11px;
-    }
+	@media screen and (min-width: 1366px) {
+		padding-left: 11px;
+	}
 
-    @media screen and (min-width: 1440px) {
-        padding-left: 9px;
-    }
+	@media screen and (min-width: 1440px) {
+		padding-left: 9px;
+	}
 }
 
 .hero__title {
-    margin-bottom: 44px;
-    font-family: var(--main-font);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 55px / 42px;
-    letter-spacing: 0.16em;
+	margin-bottom: 44px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 55px / 42px;
+	letter-spacing: 0.16em;
 
-    color: var(--primary-text-color);
+	color: var(--primary-text-color);
 
-    @media screen and (min-width:1024px) {
-        margin-bottom: 34px;
-        padding-left: 65px;
-        font-size: 53px;
-        line-height: 70px / 53px;
-    }
+	@media screen and (min-width:1024px) {
+		margin-bottom: 34px;
+		padding-left: 65px;
+		font-size: 53px;
+		line-height: 70px / 53px;
+	}
 
-    @media screen and (min-width:1366px) {
-        margin-bottom: 44px;
-        padding-left: 0;
-    }
+	@media screen and (min-width:1366px) {
+		margin-bottom: 44px;
+		padding-left: 0;
+	}
 }
 
 .br {
-    @media screen and (min-width: 1024px) {
-        display: none;
-    }
+	@media screen and (min-width: 1024px) {
+		display: none;
+	}
 }
 
 .hero__btn-wrapper {
-    @media screen and (min-width:1024px) {
-        padding-left: 74px;
-    }
+	@media screen and (min-width:1024px) {
+		padding-left: 74px;
+	}
 
-    @media screen and (min-width:1366px) {
-        padding-left: 0;
-    }
+	@media screen and (min-width:1366px) {
+		padding-left: 0;
+	}
 
 }
 
 .hero__btn {
-    max-width: 224px;
-    max-height: 40px;
-    margin-bottom: 48px;
-    padding: 11px 19px;
-    font-size: 14px;
-    line-height: 18px / 14px;
+	max-width: 224px;
+	max-height: 40px;
+	margin-bottom: 48px;
+	padding: 11px 19px;
+	font-size: 14px;
+	line-height: 18px / 14px;
 
-    transition: color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1), background-color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1), background-color var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-        &:focus {
-            background-color: var(--primary-bg-color);
-            color: var(--secondary-title-color);
-            cursor: pointer;
-        }
+	&:hover,
+	&:focus {
+		background-color: var(--primary-bg-color);
+		color: var(--secondary-title-color);
+		cursor: pointer;
+	}
 
-    @media screen and (min-width:1024px) {
-        max-width: 345px;
-        max-height: 50px;
-        margin-bottom: 42px;
-        padding: 16px 52px;
-        font-size: 18px;
-        line-height: 18px / 18px;
-    }
+	@media screen and (min-width:1024px) {
+		max-width: 345px;
+		max-height: 50px;
+		margin-bottom: 42px;
+		padding: 16px 52px;
+		font-size: 18px;
+		line-height: 18px / 18px;
+	}
 
-    @media screen and (min-width:1366px) {
-        max-width: 332px;
-        margin-bottom: 136px;
-    }
+	@media screen and (min-width:1366px) {
+		max-width: 332px;
+		margin-bottom: 136px;
+	}
 
-    @media screen and (min-width:1440px) {
-        margin-bottom: 116px;
-    }
+	@media screen and (min-width:1440px) {
+		margin-bottom: 116px;
+	}
 }
 
 .hero__play-btn {
-    padding: 0;
-    background-color: inherit;
-    border: none;
+	padding: 0;
+	background-color: inherit;
+	border: none;
 
-    @media screen and (min-width:1024px) {
-        padding-left: 76px;
-        padding-bottom: 40px;
-    }
+	@media screen and (min-width:1024px) {
+		padding-left: 76px;
+		padding-bottom: 40px;
+	}
 
-    @media screen and (min-width:1366px) {
-        padding-left: 250px;
-        padding-bottom: 140px;
-    }
+	@media screen and (min-width:1366px) {
+		padding-left: 250px;
+		padding-bottom: 140px;
+	}
 
-    @media screen and (min-width:1440px) {
-        padding-left: 270px;
-        padding-bottom: 130px;
-    }
+	@media screen and (min-width:1440px) {
+		padding-left: 270px;
+		padding-bottom: 130px;
+	}
 }
 
 .hero__svg-btn {
-    width: 44px;
-    height: 44px;
-    fill: var(--primary-text-color);
-    transition: fill var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
+	width: 44px;
+	height: 44px;
+	fill: var(--primary-text-color);
+	transition: fill var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        fill: var(--accent-color);
-        cursor: pointer;
-    }
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+		cursor: pointer;
+	}
 
-      @media screen and (min-width:1024px) {
-        width: 100px;
-        height: 100px;
-    }
+	@media screen and (min-width:1024px) {
+		width: 100px;
+		height: 100px;
+	}
 }
 
 .hero__text-block {
-    position: relative;
-    top: 100%;
-    left: 586px;
+	position: relative;
+	top: 100%;
+	left: 586px;
 
-    @media screen and (min-width:1366px) {
-        left: 769px;
-    }
+	@media screen and (min-width:1366px) {
+		left: 769px;
+	}
 
-    @media screen and (min-width:1440px) {
-        left: 812px;
-    }
+	@media screen and (min-width:1440px) {
+		left: 812px;
+	}
 }
 
 
 
 .hero__text {
-    display: none;
+	display: none;
 
-    @media screen and (min-width: 1024px) {
-        display: block;
+	@media screen and (min-width: 1024px) {
+		display: block;
 
-        font-family: var(--secondary-font);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 24px / 18px;
-        letter-spacing: 0.05em;
-        color: var(--primary-text-color);
-    }
+		font-family: var(--secondary-font);
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 24px / 18px;
+		letter-spacing: 0.05em;
+		color: var(--primary-text-color);
+	}
 }
 
 .hero__text-accent {
-    color: var(--accent-color);
+	color: var(--accent-color);
 }

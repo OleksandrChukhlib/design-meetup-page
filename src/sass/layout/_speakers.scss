@@ -1,28 +1,81 @@
 .speakers {
-    padding-top: 24px;
-    padding-bottom: 44px;
+	padding-top: 24px;
+	padding-bottom: 44px;
 }
 
 .container__title {
-    margin-bottom: 24px;
-    font-family: var(--main-font);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 38px;
-        line-height: 42px / 38px;
-        text-align: center;
-    
-        color: var(--primary-title-color);
+	margin-bottom: 24px;
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 42px / 38px;
+	text-align: center;
+
+	color: var(--primary-title-color);
+}
+
+.speakers__item {
+	display: flex;
 }
 
 .speakers__date {
-    font-family: var(--main-font);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 19px;
-        line-height: 24px / 19px;
-        color: var(--secondary-text-color);
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 19px;
+	line-height: 24px / 19px;
+	color: var(--secondary-text-color);
+	text-align: center;
 
-        writing-mode: vertical-lr;
-        transform: rotate(180deg);
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+}
+
+.speakers-card {
+	position: relative;
+	max-width: 239px;
+	height: 363px;
+	padding-top: 18px;
+}
+
+.speakers-card__linkedin {
+	position: absolute;
+	top: 32px;
+	right: 14px;
+	width: 24px;
+	height: 24px;
+	fill: var(--primary-text-color);
+	transition: fill var(--taming-function) cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		fill: var(--accent-color);
+	}
+}
+
+.speakers-card__photo {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 12px;
+}
+
+.speakers-card__name {
+margin-bottom: 10px;
+
+	font-family: var(--main-font);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px / 24px;
+	color: var(--secondary-title-color);
+}
+
+.speakere-card__text {
+	font-family: var(--main-font);
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px / 18px;
+color: var(--primary-title-color);
 }
