@@ -1,4 +1,6 @@
 .speakers {
+	display: flex;
+	align-items: center;
 	padding-top: 24px;
 	padding-bottom: 44px;
 }
@@ -17,6 +19,7 @@
 
 .speakers__item {
 	display: flex;
+	
 }
 
 .speakers__date {
@@ -71,11 +74,37 @@ margin-bottom: 10px;
 	color: var(--secondary-title-color);
 }
 
-.speakere-card__text {
+.speakers-card__text {
 	font-family: var(--main-font);
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 line-height: 23px / 18px;
 color: var(--primary-title-color);
+}
+
+.speakers-card__btn {
+	position: absolute;
+	top: 320px;
+	left: 200px;
+	
+		display: block;
+			border: none;
+		
+			margin: 0;
+			text-decoration: none;
+			background: transparent;
+			color: #ffffff;
+		
+			cursor: pointer;
+			text-align: center;
+		
+	width: 40px;
+	height: 40px;
+
+}
+
+.speakers-card__left-arrow {
+	width: 40px;
+		height: 40px;
 }
