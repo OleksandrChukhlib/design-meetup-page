@@ -17,9 +17,15 @@
 	color: var(--primary-title-color);
 }
 
+.speakers-list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
 .speakers__item {
 	display: flex;
-	
+
 }
 
 .speakers__date {
@@ -55,6 +61,10 @@
 	&:focus {
 		fill: var(--accent-color);
 	}
+}
+
+.speakers-card__linkedin--black {
+	fill: var(--black-bg-color);
 }
 
 .speakers-card__photo {
@@ -107,4 +117,5 @@ color: var(--primary-title-color);
 .speakers-card__left-arrow {
 	width: 40px;
 		height: 40px;
+		fill: var(--accent-color);
 }
