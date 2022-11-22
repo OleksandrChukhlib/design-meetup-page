@@ -193,6 +193,12 @@ font-size: 36px;
 		}
 }
 
+br {
+	@media screen and (min-width: 1024px) {
+	display: none;
+		}
+}
+
 .speakers-card__text {
 	font-family: var(--main-font);
 	font-style: normal;
