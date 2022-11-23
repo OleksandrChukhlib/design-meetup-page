@@ -1,0 +1,12 @@
+.registration__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 42px / 38px;
+        text-align: center;
+        color: var(--secondary-title-color);
+}
+
+.form-group__input:focus + .form-group__label {
+    color: red;
+}
